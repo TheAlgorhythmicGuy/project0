@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*
+font-family: 'Nunito', sans-serif; Light and extra light
+font-family: 'Oxygen', sans-serif; light regular bold
+font-family: 'Josefin Sans', sans-serif; light regular
+*/
+head, body {
+  background-color: #f0f0f0; }
+
+@media (min-width: 600px) {
+  h1::before {
+    content: "Clement's 2018-2020 Travels"; } }
+@media (max-width: 599px) {
+  h1::before {
+    content: "Clement's Travels"; } }
+a > h1 {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  content: "none"; }
+
+a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  padding-left: 20px;
+  color: green; }
+
+div > a::before {
+  content: "✈"; }
+
+a:hover {
+  color: orange;
+  text-decoration: none; }
+
+div h3 {
+  font-size: 28px; }
+div p {
+  font-size: 17px; }
+
+.country-links {
+  text-align: center; }
+
+#world-map {
+  padding-bottom: 20px; }
+
+#country-background {
+  padding-top: 20px; }
+
+.row {
+  padding: 20px; }
+
+.more-link {
+  padding-left: 0px;
+  margin-left: 5px;
+  font-size: 17px; }
+
+p, td {
+  color: green; }
+
+/*# sourceMappingURL=styles.css.map */
